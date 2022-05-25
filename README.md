@@ -2,19 +2,20 @@
 
 Los patrones de diseño (design patterns) son elementos reutilizables creados para resolver problemas comunes. Es decir que con su aplicación y utilización podremos corregir diferentes problemas que presenta nuestro código de una manera segura, estable y testeada por cientos de programadores de todo el mundo.
 
-# _Como se compone o sus partes_ ䷴
+# _¿Como se compone o sus partes?_ ䷴
 
 Al utilizar patrones de diseño es importante considerar también si el rendimiento de nuestros sistemas se verá afectado cuando apliquemos la solución, ya que algunos patrones de diseño incorporan complejidades en el código que pueden perjudicar el desempeño de nuestros programas.
 
 # _Se compone_
 
+- Patrones creacionales
+- Patrones estructurales
+- Patrones de comportamiento
 
+## _Tipos y definiciones_ 🚀
 
-## Comenzando 🚀
+- Patrones creacionales
 
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
-
-Mira **Deployment** para conocer como desplegar el proyecto.
 
 
 ### Pre-requisitos 📋  
