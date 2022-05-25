@@ -12,7 +12,7 @@ Al utilizar patrones de diseño es importante considerar también si el rendimie
 - Patrones estructurales
 - Patrones de comportamiento
 
-## _Tipos y definiciones_ 🚀
+## _Tipos y Definiciones_ 🚀
 
 - _Patrones creacionales_
 
