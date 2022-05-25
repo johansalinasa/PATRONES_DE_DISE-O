@@ -28,78 +28,49 @@ Estos patrones se utilizan para facilitar la creación de nuevos objetos que bus
 
 - _Singleton:_ Se utiliza para restringir la creación de nuevas instancias de una clase a un objeto determinado.
 
+- _Patrones estructurales_
 
+Los patrones estructurales buscan facilitar la acción de ensamblar objetos y clases dentro de clases estructurales más grandes sin perder la eficiencia y manteniendo la flexibilidad.
 
+- _Adapter:_ Adaptador es un patrón que se utiliza para que objetos con interfaces incompatibles colaboren entre sí.
 
-### Pre-requisitos 📋  
+- _Bridge:_ El patrón Bridge resuelve un problema habitual en la herencia de clases dividiendo clases relacionadas en dos jerarquías diferentes: implementación y abstracción, para que estas puedan desarrollarse independientemente.
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+- _Composite:_ Solo se recomienda utilizar Composite cuando el modelo de código está creado a partir de un sistema ramificado en forma de árbol.
 
-```
-Da un ejemplo
-```
+- _Decorator:_ Se utiliza para extender el comportamiento de un objeto añadiendo funcionalidades al mismo a través de objetos encapsuladores que presentan dichas funcionalidades.
 
-### Instalación 🔧
+- _Facade:_ Una fachada proporciona una interfaz simplificada para un subsistema complejo. Por ejemplo, este patrón de diseño permite integrar una aplicación con una biblioteca que tiene muchas funciones de las que solo se ocupan unas pocas.
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+- _Flyweight:_ Ayuda a reducir el tamaño de los objetos almacenando en su interior solo el estado intrínseco (información constante) del mismo y compartiendo el resto de la información (estado extrínseco) entre varios objetos similares.
 
-_Dí cómo será ese paso_
+- _Proxy:_ Este patrón de diseño se utiliza para crear objetos sustitutos que trabajan como una interfaz hacia cualquier objeto determinado.
 
-```
-Da un ejemplo
-```
+- _Patrones de comportamiento_
 
-_Y repite_
+Los patrones de comportamiento buscan resolver la comunicación entre diferentes áreas
 
-```
-hasta finalizar
-```
+- _Chain of responsibility:_ A través de este patrón podremos evitar que la petición emitida por un emisor sea acoplada a un solo receptor permitiendo que más de un objeto pueda responder a dicha petición.
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+- _Command:_ Se utiliza cuando es necesario encapsular dentro de un objeto todos los parámetros que una acción requiere para ejecutarse.
 
-## Ejecutando las pruebas ⚙️
+- _Interpreter:_ Utilizando Interpreter podremos evaluar un lenguaje a través de una interfaz que indique el contexto en el cual se interpreta.
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+- _Iterator:_ Este patrón de comportamiento se utiliza cuando necesitamos iterar en colecciones o conjuntos de objetos sin la necesidad de intercambiar información relevante.
 
-### Analice las pruebas end-to-end 🔩
+- _Mediator:_ Se utiliza cuando necesitamos controlar las comunicaciones directas entre objetos y disminuir sus dependencias caóticas.
 
-_Explica que verifican estas pruebas y por qué_
+- _Memento:_ Este patrón es capaz de almacenar y restaurar la información de un objeto.
 
-```
-Da un ejemplo
-```
+- _Observer:_ A través de este patrón de comportamiento varios objetos interesados (suscriptores) en un objeto en particular (notificador) pueden recibir notificaciones de su comportamiento mientras estén suscriptos a sus notificaciones.
 
-### Y las pruebas de estilo de codificación ⌨️
+- _State:_ Se utiliza para modificar el comportamiento de una clase de objetos dependiendo del estado actual (comportamiento interno) de dichos objetos.
 
-_Explica que verifican estas pruebas y por qué_
+- _Strategy:_ Permite separar todos los algoritmos de una clase específica en nuevas clases separadas donde los objetos pueden intercambiarse.
 
-```
-Da un ejemplo
-```
+- _Template method:_ Este patrón define el esqueleto de un algoritmo y permite a las subclases variar la implementación del comportamiento del mismo.
 
-## Despliegue 📦
-
-_Agrega notas adicionales sobre como hacer deploy_
-
-## Construido con 🛠️
-
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
-
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
+- _Visitor:_ A través de este patrón podremos introducir nuevos algoritmos sin modificar la estructura de objetos que se utilizarán para ejecutarlos.
 
 ## Autores ✒️
 
