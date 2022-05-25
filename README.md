@@ -93,8 +93,6 @@ Para las transferencias de alto rendimiento, Amazon S3 aconseja que se usen apli
 
 La red de borde también ayuda a acelerar las transferencias de datos tanto dentro como fuera de Amazon S3. Resulta ideal para las aplicaciones que transfieren datos en o entre continentes, tienen una conexión a Internet rápida, usan objetos grandes o tienen mucho contenido que cargar. A medida que los datos llegan a una ubicación de borde, se redirigen a Amazon S3 a través de una ruta de red optimizada. En general, cuanto más lejos esté de una región de Amazon S3, mayor será la mejora de la velocidad que puede esperar del uso de Transfer Acceleration.
 
-
-
 ## Autores ✒️
 
 * **Duver Salgado Rojas** - *Estudiante*
