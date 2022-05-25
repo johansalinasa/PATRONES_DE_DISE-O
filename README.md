@@ -14,7 +14,20 @@ Al utilizar patrones de diseño es importante considerar también si el rendimie
 
 ## _Tipos y definiciones_ 🚀
 
-- Patrones creacionales
+- _Patrones creacionales_
+
+Estos patrones se utilizan para facilitar la creación de nuevos objetos que buscan incrementar la flexibilidad y reutilización del código existente. Entre los más utilizados podemos nombrar:
+
+- _Abstract Factory:_ Este patrón se utiliza para crear familias de objetos que se relacionan sin la necesidad de especificar sus clases.
+
+- _Builder Patterns:_ El patrón constructor se utiliza para crear diferentes objetos a partir de una serie de pasos reutilizando el código de construcción. Esto simplifica la necesidad de crear subclases para cada configuración posible de un objeto particular.
+
+- _Factory Method:_ Este patrón ofrece una interfaz para crear nuevos objetos dentro de una superclase permitiendo que las subclases cambien el tipo de objetos que van a crear.
+
+- _Prototype:_ Se utiliza para crear nuevos objetos a partir de objetos existentes. A través de la declaración de una interfaz (clonar) este patrón encarga a los propios objetos la acción de clonarse.
+
+- _Singleton:_ Se utiliza para restringir la creación de nuevas instancias de una clase a un objeto determinado.
+
 
 
 
