@@ -14,7 +14,7 @@ Al utilizar patrones de diseño es importante considerar también si el rendimie
 
 ## _Tipos y Definiciones_ 🚀
 
-- _Patrones creacionales_
+# - _Patrones creacionales_
 
 Estos patrones se utilizan para facilitar la creación de nuevos objetos que buscan incrementar la flexibilidad y reutilización del código existente. Entre los más utilizados podemos nombrar:
 
@@ -28,7 +28,7 @@ Estos patrones se utilizan para facilitar la creación de nuevos objetos que bus
 
 - _Singleton:_ Se utiliza para restringir la creación de nuevas instancias de una clase a un objeto determinado.
 
-- _Patrones estructurales_
+# - _Patrones estructurales_
 
 Los patrones estructurales buscan facilitar la acción de ensamblar objetos y clases dentro de clases estructurales más grandes sin perder la eficiencia y manteniendo la flexibilidad.
 
@@ -46,7 +46,7 @@ Los patrones estructurales buscan facilitar la acción de ensamblar objetos y cl
 
 - _Proxy:_ Este patrón de diseño se utiliza para crear objetos sustitutos que trabajan como una interfaz hacia cualquier objeto determinado.
 
-- _Patrones de comportamiento_
+# - _Patrones de comportamiento_
 
 Los patrones de comportamiento buscan resolver la comunicación entre diferentes áreas
 
@@ -72,9 +72,24 @@ Los patrones de comportamiento buscan resolver la comunicación entre diferentes
 
 - _Visitor:_ A través de este patrón podremos introducir nuevos algoritmos sin modificar la estructura de objetos que se utilizarán para ejecutarlos.
 
+## ¿Como se puede usar en AWS y que necesitaría? 💡
+
+
+Al diseñar aplicaciones para cargar y recuperar objetos de AWS, use los patrones de diseño de nuestras prácticas recomendadas para lograr el mejor rendimiento para su aplicación. También ofrecemos Directrices de rendimiento para que las tenga en cuenta al planificar la arquitectura de aplicaciones.
+
+# - _Uso del almacenamiento en caché para el contenido de acceso frecuente_
+
+Amazon CloudFront es una red de entrega de contenido (CDN) rápida que almacena datos en caché de forma transparente desde Amazon S3 en un gran conjunto de puntos de presencia (PoP) distribuidos geográficamente. Cuando se puede tener acceso a los objetos desde multirregiones o a través de Internet, CloudFront permite que los datos se almacenen en caché cerca de los usuarios con acceso a los objetos. Esto puede dar como resultado la entrega de alto rendimiento de contenido popular de Amazon AWS.
+
+# - _Tiempos de espera y reintentos de aplicaciones sensibles a la latencia_
+
+AWS se escala automáticamente en respuesta a las nuevas velocidades de solicitudes sostenidas, optimizando el rendimiento de forma dinámica. Aunque AWS se está optimizando internamente para una nueva velocidad de solicitudes, recibirá respuestas a las solicitudes HTTP 503 de forma temporal hasta que se complete la optimización. Una vez que AWS optimice internamente el rendimiento para la nueva velocidad de las solicitudes, todas las solicitudes se atienden de forma general sin reintentos.
+
+
+
 ## Autores ✒️
 
-* **Duver Salgado Rojas** - *Trabajo Inicial*
-* **Fabian Silva** - *Documentación*
-* **Edward Castro** - *Documentación*
-* **Johan Salinas Acosta** - *Documentación*
+* **Duver Salgado Rojas** - *Estudiante*
+* **Fabian Silva** - *Estudiante*
+* **Edward Castro** - *Estudiante*
+* **Johan Salinas Acosta** - *Estudiante*
