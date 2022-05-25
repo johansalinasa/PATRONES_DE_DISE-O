@@ -87,6 +87,14 @@ AWS se escala automáticamente en respuesta a las nuevas velocidades de solicitu
 
 # - _Escalado horizontal y uso en paralelo de solicitudes para lograr un alto rendimiento_
 
+Para las transferencias de alto rendimiento, Amazon S3 aconseja que se usen aplicaciones que a su vez usen varias conexiones a los datos de GET o PUT en paralelo. Por ejemplo, esto cuenta con el respaldo del gestor de transferencias de Amazon S3 en el SDK de AWS para Java. Además, la mayoría de los otros SDK de AWS proporcionan construcciones similares. Para algunas aplicaciones, puede lograr conexiones paralelas lanzando varias solicitudes simultáneamente en diferentes subprocesos de aplicación, o bien en diferentes instancias de aplicación. El mejor enfoque que adoptar depende de su aplicación y la estructura de los objetos a los que tiene acceso.
+
+# - _Uso de Amazon S3 Transfer Acceleration para acelerar las transferencias de datos a lugares geográficos dispares_
+
+La red de borde también ayuda a acelerar las transferencias de datos tanto dentro como fuera de Amazon S3. Resulta ideal para las aplicaciones que transfieren datos en o entre continentes, tienen una conexión a Internet rápida, usan objetos grandes o tienen mucho contenido que cargar. A medida que los datos llegan a una ubicación de borde, se redirigen a Amazon S3 a través de una ruta de red optimizada. En general, cuanto más lejos esté de una región de Amazon S3, mayor será la mejora de la velocidad que puede esperar del uso de Transfer Acceleration.
+
+
+
 ## Autores ✒️
 
 * **Duver Salgado Rojas** - *Estudiante*
