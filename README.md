@@ -85,8 +85,8 @@ Amazon CloudFront es una red de entrega de contenido (CDN) rápida que almacena 
 
 AWS se escala automáticamente en respuesta a las nuevas velocidades de solicitudes sostenidas, optimizando el rendimiento de forma dinámica. Aunque AWS se está optimizando internamente para una nueva velocidad de solicitudes, recibirá respuestas a las solicitudes HTTP 503 de forma temporal hasta que se complete la optimización. Una vez que AWS optimice internamente el rendimiento para la nueva velocidad de las solicitudes, todas las solicitudes se atienden de forma general sin reintentos.
 
+# - _Escalado horizontal y uso en paralelo de solicitudes para lograr un alto rendimiento_
 
-. 
 ## Autores ✒️
 
 * **Duver Salgado Rojas** - *Estudiante*
