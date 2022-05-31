@@ -5,6 +5,18 @@ Los patrones de diseño (design patterns) son elementos reutilizables creados pa
 # _¿Como se compone o sus partes?_ ䷴
 
 Al utilizar patrones de diseño es importante considerar también si el rendimiento de nuestros sistemas se verá afectado cuando apliquemos la solución, ya que algunos patrones de diseño incorporan complejidades en el código que pueden perjudicar el desempeño de nuestros programas.
+Nombre del patrón: nombre estándar del patrón por el cual será reconocido en la comunidad (normalmente se expresan en inglés). Otros nombres de uso común para el patrón.
+- Clasificación del patrón: creacional, estructural o de comportamiento.
+- Motivación: Escenario de ejemplo para la aplicación del patrón.
+- Aplicabilidad: Usos comunes y criterios de aplicabilidad del patrón.
+- Estructura: Diagramas de clases oportunos para describir las clases que intervienen en el patrón.
+- Participantes: Enumeración y descripción de las entidades abstractas (y sus roles) que participan en el patrón.
+- Colaboraciones: Explicación de las interrelaciones que se dan entre los participantes.
+- Consecuencias: Consecuencias positivas y negativas en el diseño derivadas de la aplicación del patrón.
+- Implementación: Técnicas o comentarios oportunos de cara a la implementación del patrón.
+- Código de ejemplo: Código fuente ejemplo de implementación del patrón.
+- Usos conocidos: Ejemplos de sistemas reales que usan el patrón.
+- Patrones relacionados: Referencias cruzadas con otros patrones. 
 
 # _Se compone_
 
